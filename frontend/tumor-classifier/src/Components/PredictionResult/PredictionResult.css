@@ -1,0 +1,94 @@
+.result-container {
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .result-card {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 24px;
+    text-align: center;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    max-width: 550px;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .result-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .result-title {
+    font-size: 2.2rem;
+    color: #0072ff;
+    margin-bottom: 25px;
+    font-weight: 600;
+  }
+  
+  .result-image {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    border-radius: 16px;
+    margin-bottom: 25px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+  }
+  
+  .result-text {
+    font-size: 1.3rem;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  .result-text.success {
+    color: #1e7e34;
+    font-weight: bold;
+  }
+  
+  .result-text.neutral {
+    color: #6c757d;
+  }
+  
+
+
+  .accuracy-text {
+    margin-top: 20px;
+    font-size: 1.1rem;
+    color: #0072ff;
+    font-weight: 500;
+  }
+  
+  .congrats-section {
+    margin-top: 25px;
+  }
+  
+  .congrats-text {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #28a745;
+    margin-bottom: 15px;
+  }
+  
+  .happy-image {
+    width: 100px;
+    height: auto;
+    animation: pop 0.6s ease-out;
+  }
+  
+  @keyframes pop {
+    0% {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  

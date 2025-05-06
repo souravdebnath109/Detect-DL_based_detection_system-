@@ -1,0 +1,62 @@
+/* Components/Upload/ImageUpload.css */
+
+.upload-container {
+  background: linear-gradient(to right, #1f4037, #99f2c8);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.upload-card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 480px;
+  width: 100%;
+}
+
+.upload-card h2 {
+  margin-bottom: 10px;
+  color: #0072ff;
+}
+
+.upload-card p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.file-input {
+  margin-bottom: 20px;
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border: 2px dashed #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.file-input:hover {
+  border-color: #0072ff;
+}
+
+.predict-button {
+  background-color: #0072ff;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.predict-button:hover {
+  background-color: #005bb5;
+}
